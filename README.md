@@ -8,9 +8,7 @@ This project consists of two Python services that communicate with each other: a
 
 1. Event Propagator
     
-    The Event Propagator periodically sends predefined JSON objects to a configured HTTP API endpoint.
-    
-    Requirements:   
+    The Event Propagator periodically sends predefined JSON objects to a configured HTTP API endpoint:
     
         Sends events at a configurable interval (in seconds).
         
@@ -37,9 +35,7 @@ This project consists of two Python services that communicate with each other: a
 
 2. Event Consumer
     
-    The Event Consumer provides an HTTP API that accepts incoming JSON event payloads and persists them to a database.
-    
-    Requirements:
+    The Event Consumer provides an HTTP API that accepts incoming JSON event payloads and persists them to a database:
     
         Exposes an HTTP API on a configurable port.
         
